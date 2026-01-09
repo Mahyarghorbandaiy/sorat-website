@@ -1,0 +1,320 @@
+.top-bar {
+    border-bottom: 1px solid #c1c1c1;
+    padding-bottom: 10px;
+}
+
+.price {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    color: #c50000;
+}
+
+span.dollar {
+    color: #c50000 !important;
+    font-weight: 600;
+    font-size: 1.8rem;
+}
+
+span.ship {
+    color: #f82c2c !important;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+span.dollarstaggered {
+    color: #c50000 !important;
+    font-weight: 600;
+    font-size: 1.8rem;
+    margin-left: 25%;
+}
+
+.menuitem {
+    font-size: 1.5rem !important;
+    font-size: 1.5rem !important;
+    color: #000 !important;
+    font-weight: 600 !important;
+    background-color: rgba(197, 0, 0, 0.404) !important;
+}
+
+.infoitem {
+    font-size: 1.4rem !important;
+    color: #000 !important;
+    font-weight: 600 !important;
+    width: 36%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+
+.infoitemstaggered {
+
+    font-size: 1.4rem !important;
+    color: #000 !important;
+    font-weight: 600 !important;
+    width: 30%;
+    vertical-align: top;
+    padding-top: 7px;
+    padding-bottom: 5px;
+
+} 
+
+.front-rear-select-container div:nth-child(3) {
+    margin-left: 10px !important;
+}
+
+.item2 {
+    font-size: 1.5rem !important;
+    font-size: 1.5rem !important;
+    color: #000 !important;
+    font-weight: 600 !important;
+    width: 36%;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 25px;
+}
+
+.top-bar-title {
+    text-align: left;
+    font-size: 40px;
+    margin-bottom: 15px;
+    line-height: 45px;
+    color: #590505;
+}
+
+.top-bar-price span:last-child {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.42857143;
+    font-size: 1.4rem;
+}
+
+.top-bar-review {
+    text-align: left;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #c50000;
+}
+
+.bottom-bar {
+    padding: 15px 0;
+}
+
+.bottom-bar-shipping {
+    padding: 0 0 15px 0;
+    text-align: left;
+    font-size: 16px;
+    color: #7a7a7a;
+}
+
+.shipping-info {
+    box-shadow: inset 0 1px 0 0 #ffffff, inset 0 -1px 0 0 rgba(204, 204, 204, 0.3);
+    background: #fffbb9;
+    border: 0;
+    font-size: 14px;
+    color: #000;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+    border-radius: 50%;
+    height: 24px;
+    width: 25px;
+    line-height: normal;
+    border: 0;
+    position: relative;
+    top: -20px;
+    right: -30px;
+}
+
+.bottom-bar-qty span {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.bottom-bar-qty input {
+    margin-left: 20px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.bottom-bar-button {
+    text-align: left;
+    margin-bottom: 35px;
+}
+
+.addToCartBtn {
+    width: 49%;
+    background: #c50000;
+    border-color: #c50000;
+    font-size: 1.8rem;
+    padding: 14px 17px;
+    line-height: 2.2rem;
+    color: #fff;
+    border: none;
+}
+
+.addToCartBtn:hover {
+    background: #c50000;
+    border: none;
+    color: #fff;
+}
+
+.bottom-bar-pricing-actions {
+    margin-bottom: 20px;
+}
+
+.pricing-actions-wishlist,
+.pricing-actions-compare,
+.pricing-actions-email {
+    padding: 0 10px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #666;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+
+.pricing-actions-wishlist:before {
+    content: '\e600';
+}
+
+.pricing-actions-compare:before {
+    content: '\e61e';
+}
+
+.pricing-actions-email:before {
+    content: '\e61d';
+}
+
+.bottom-bar-description,
+.product-info-detailed-sku {
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.42857143;
+    font-size: 1.4rem;
+    margin: 20px 0;
+}
+
+.react-tabs {
+    padding: 0 40px 80px;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: none !important;
+    border-top-color: rgb(41, 40, 40);
+    border-left-color: #aaa;
+}
+
+.react-tabs__tab-list {
+    padding: 0;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.react-tabs__tab {
+    display: inline-block;
+    border: 1px solid transparent;
+    bottom: -1px;
+    position: relative;
+    list-style: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin-bottom: 0 !important;
+    text-align: left;
+    border: 1px solid rgb(7, 7, 7);
+    background: #f6f6f6;
+    color: #7d7d7d;
+    font-weight: 400;
+    line-height: 40px;
+    font-size: 1.4rem;
+    text-decoration: none;
+    background: #f6f6f6;
+    height: 40px;
+    padding: 1px 35px 1px 35px;
+}
+
+.react-tabs__tab:hover {
+    background: #fff;
+}
+
+.react-tabs__tab:first-child,
+.react-tabs__tab:nth-child(2) {
+    border-right: none;
+}
+
+.react-tabs__tab--selected {
+    background: #fff;
+    border-color: #aaa;
+    color: black;
+    border-bottom: 1px solid #fff;
+    box-shadow: none;
+}
+
+.react-tabs__tab--disabled {
+    color: GrayText;
+    cursor: default;
+}
+
+.react-tabs__tab:focus {
+    box-shadow: 0 0 5px hsl(208, 99%, 50%);
+    border-color: hsl(208, 99%, 50%);
+    outline: none;
+}
+
+.react-tabs__tab:focus:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    left: -4px;
+    right: -4px;
+    bottom: -5px;
+    background: #fff;
+    box-shadow: none;
+}
+
+.react-tabs__tab-panel {
+    display: none;
+    padding: 35px;
+    border: 1px solid #aaa;
+}
+
+.react-tabs__tab-panel--selected {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid #aaa;
+}
+
+@media (max-width: 800px) {
+    .product-media img {
+        width: 90% !important;
+    }
+    .main {
+        flex-direction: column-reverse !important;
+    }
+    .addToCartBtn {
+        width: 100%;
+    }
+    .top-bar-price span:last-child {
+        font-size: 1.3rem;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+    .top-bar-price span.price {
+        font-size: 1.5rem;
+    }
+    .top-bar-title {
+        text-align: left;
+        font-size: 16px;
+        margin-bottom: 15px;
+        line-height: 20px;
+        color: #590505;
+        font-weight: 600;
+    }
+    .bottom-bar {
+        padding: 0px 0;
+    }
+}
